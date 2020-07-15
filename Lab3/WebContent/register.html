@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="ISO-8859-1">
+<title>Register</title>
+</head>
+<body>
+	<form action="FrontController" method="get">
+		<table align="center">
+			<tr>
+				<td>First name: </td>
+				<td><input type="text" name="firstName"></td>
+			</tr>
+			<tr>
+				<td>Last name: </td>
+				<td><input type="text" name="lastName"></td>
+			</tr>
+			<tr>
+				<td>Password: </td>
+				<td><input type="password" name="password"></td>
+			</tr>
+			<tr>
+				<td>Gender: </td>
+				<td><input type="radio" name="gender" value="M">Male</td>
+				<td><input type="radio" name="gender" value="F">Female</td>
+			</tr>
+			<tr>
+				<td>Select skills: </td>
+				<td><input type="checkbox" name="skills" value="Java">Java</td>
+				<td><input type="checkbox" name="skills" value=".NET">.NET</td>
+				<td><input type="checkbox" name="skills" value="Testing">Testing</td>
+				<td><input type="checkbox" name="skills" value="Mainframe">Mainframe</td>
+			</tr>
+			<tr>
+				<td>Select City:</td>
+				<td>
+					<select name="city">
+						<option value=-1>----Select City----</option>
+						<option value="Bangalore">Bangalore</option>
+						<option value="Pune">Pune</option>
+						<option value="Hyderabad">Hyderabad</option>
+					</select>
+				</td>
+			</tr>
+			<tr>
+				<td><input type="submit" value="REGISTER" name="action"></td>
+				<td><input type="reset" value="CLEAR"></td>
+			</tr>
+		</table>
+	</form>
+</body>
+</html>
